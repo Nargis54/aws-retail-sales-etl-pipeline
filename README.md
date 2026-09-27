@@ -7,7 +7,19 @@ This project implements a cloud-based ETL pipeline for retail sales data using A
 The pipeline collects raw retail sales data, processes and cleans it using AWS Lambda, stores processed data in Amazon S3, and creates a curated sales summary for analysis.
 
 ## Architecture
+![AWS Retail Sales ETL Architecture](Architecture.jpeg)
+## AWS Project Screenshots
+### Raw Data
+![Raw Data](ssRetail_sales.png)
 
+### Processed Data
+![Processed Data](ssCleaned_retail_sales.png)
+
+### Curated Data
+![Curated Summary](ssSales_summary.png)
+
+### AWS Glue Table
+![Glue Table](ss7column.png)
 Raw CSV → Amazon S3 → AWS Lambda → Processed Data → Curated Sales Summary → AWS Glue Data Catalog
 
 ## AWS Services Used
